@@ -1,0 +1,358 @@
+/* Large devices (laptops, less than 1400px) */
+@media (max-width: 1400px) {
+  main {
+    /* background-color: pink; */
+  }
+}
+
+/* Large devices (desktops, tablets landscape, less than 1200px) */
+@media (max-width: 1199.98px) {
+  main {
+    /* background-color: lavender; */
+  }
+
+  /* Index */
+  /* Owl carousel */
+
+  .owl-carousel .owl-nav {
+    /* background-color: pink; */
+    display: none;
+  }
+  /* Owl carousel */
+
+  /* Section categories */
+  .grid-categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+   }
+  /* End section categories */
+  /* End Index */
+
+  /* CATEGORY PAGE */
+   .card-filter-desktop, .select-order-desktop {
+    display: none;
+   }
+
+   .wrap-controls-filter-order-mobile {
+    display: flex;
+    justify-content: flex-start;
+   }
+  /* END CATEGORY PAGE */
+  /* CART PAGE */
+   .section-shopping-cart-main {
+    justify-content: center;
+   }
+  /* END CART PAGE */
+
+    /* CHECKOUT PAGE */
+    .section-checkout-main {
+      /* background-color: bisque; */
+      justify-content: center;
+    }
+    /* END CHECKOUT PAGE */
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  main {
+    /* background-color: salmon; */
+  }
+
+  /* navbar */
+  .navbar-main {
+    padding: 0;
+  }
+
+  #btn-menu-mobile {
+    display: flex;
+  }
+
+  .btn-navbar-desktop-categorias,
+  .btn-navbar-desktop-contacto,
+  .btn-navbar-desktop-login {
+    display: none;
+  }
+
+  /* End navbar */
+
+  /* INDEX */
+  /* Carousel desktop */
+  .carousel-control-prev, .carousel-control-next {
+    display: none;
+  }
+  /* End Carousel Desktop */
+  /* END INDEX */
+
+  /* DETAIL PAGE */
+  .detail-main {
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }  
+
+  .detail-main__footer {
+    /* background-color: #C1F8CF; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .control-quantity {
+    margin-bottom: 0;
+  }
+  /* END DETAIL PAGE */
+  /* CART PAGE */
+  .wrap-products-disccount {
+    width: 100%;
+  }
+
+  .shopping-card {
+    width: 100%;
+  }
+  /* END CART PAGE */
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+  main {
+    /* background-color: lightblue; */
+  }
+
+  /* Index */
+
+  .btn-profile-desktop {
+    display: none;
+  }
+
+  .grid-gift-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+    /* Section categories */
+    .grid-categories {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+     }
+    /* End section categories */
+
+    /* Section brands */
+    .grid-brands-cards {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+   /* End section brands */
+
+  /* End Index */
+
+  /* CATEGORY PAGE */
+  .wrap-controls-filter-order-mobile {
+    justify-content: space-between;
+  }
+
+  .card-product-category, .gift-card-category {
+    width: 15rem;
+  }
+  
+  /* END CATEGORY PAGE */
+
+  /* PROFILE PAGE */
+  .content-compra {
+    /* background-color: pink; */
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-compra__footer {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  /* END PROFILE PAGE */
+
+  /* CHECKOUT PAGE */
+  .accordion-checkout {
+    width: 100%;
+  }
+  /* END CHECKOUT PAGE */
+}
+
+
+/* portrait phones */
+@media (max-width: 575.98px) {
+  main {
+    /* background-color: lightyellow; */
+  }
+
+  /* Off canvas */
+  .offcanvas {
+    /* background-color: aquamarine; */
+    max-width: 80%;
+  }
+
+  .offcanvas-header__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: crimson; */
+  }
+
+  .offcanvas-header__bottom .btn {
+    width: 100%;
+  }
+
+  /* End off canvas */
+
+  /* LOGIN */
+
+  .form-login,
+  .form-registro {
+    /* background-color: lavender; */
+    width: 100%;
+  }
+
+  .form-login__logo,
+  .form-registro__logo {
+    display: block;
+    height: 2rem;
+  }
+
+  /* END LOGIN */
+
+  /* INDEX */
+  .carousel-desktop {
+    display: none;
+  }
+
+  .carousel-mobile {
+    display: block;
+  }
+
+  /* section categories */
+
+  .card-category__body {
+    padding: 1rem .5rem;
+  }
+
+  /* End section categories */
+
+      /* Section brands */
+      .grid-brands-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+      }
+     /* End section brands */
+
+  /* END INDEX */
+    /* CATEGORY PAGE */  
+    .card-product-category, .gift-card-category {
+      width: 100%;
+    }
+    
+    /* END CATEGORY PAGE */
+
+    /* PROFILE PAGE */
+    .card-compra {
+      /* background-color: #C1F8CF; */
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      max-width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    .card-compra__img {
+      width: 100%;
+    }
+
+    .card-compra__brand {
+      display: flex;
+      gap: .5rem;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .card-compra__desc {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      font-weight: 600;
+    }
+    /* END PROFILE PAGE */
+
+    /* DETAIL PAGE */
+    .detail-main__img {
+      width: 100%;
+    }
+
+    .detail-main__footer {
+      /* background-color: #C1F8CF; */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1rem;
+      width: 100%;
+    }
+
+    .control-quantity, .plus-minus-box {
+      width: 100%;
+    } 
+
+    .btn-block-mobile {
+      width: 100%;
+    }
+
+    /* END DETAIL PAGE */
+
+    /* CART PAGE */
+    .shopping-card {
+      /* background-color: lavender; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .shopping-card__img {
+      width: 100%;
+    }
+
+    .shopping-card__bottom {
+      /* background-color: #C1F8CF; */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    /* END CART PAGE */
+
+    /* CHECKOUT PAGE */
+    .checkout-product-card {
+      flex-direction: column;
+      margin-bottom: 2rem;
+    }
+    /* END CHECKOUT PAGE */
+
+}

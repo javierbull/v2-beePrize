@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="../img/icons/favicon.png" type="image/x-icon" />
+  <meta name="description" content="Bee ticket es la plataforma donde podrás encontrar gif cards de tus marcas preferidas, Promociones y Ofertas Exclusivas.">
+  <meta name="keywords" content="Gif cards, promociones, ofertas, regalar">
+  <title>Bee Ticket - Regístro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8cf3a19778.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/mq.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar-main shadow fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-main__left">
+          <button class="btn button-ghost" id="btn-menu-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuMobile" aria-controls="offcanvasExample">
+            <span class="material-icons-outlined">
+              menu
+            </span>
+          </button>
+          <a class="navbar-main__brand" href="../index.html">
+            <img src="../img/logos/beeTicket.png" alt="Logo bee Ticket">
+          </a>
+          <div class="btn-group btn-navbar-desktop-categorias">
+            <button type="button" class="btn button-ghost dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorías
+              <span class="material-icons-outlined">
+                expand_more
+              </span>
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      movie
+                    </span>
+                    Cine
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      mood
+                    </span>
+                    Entretenimiento
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      restaurant
+                    </span>
+                    Restaurantes
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      spa
+                    </span>
+                    Salud y Belleza
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      redeem
+                    </span>
+                    Boxes y Regalos
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      directions_bike
+                    </span>
+                    Deporte
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      school
+                    </span>
+                    Educación
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <a href="contacto.html" class="btn button-ghost btn-navbar-desktop-contacto">
+            Contacto
+          </a>
+        </div>
+
+        <div class="navbar-main__right">
+          <a href="pages/cart.html" class="btn button-primary">
+            <span class="material-icons-outlined">
+              shopping_cart
+            </span>
+            00
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="bg-registro">
+          <!-- Off canvas menu mobile -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenuMobile" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <div class="offcanvas-header__default">
+        <div class="offcanvas-header__top">
+          <img src="../img/icons/user-default.png" alt="usuario">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            ¡Te damos la bienvenida!
+          </h5>
+        </div>
+        <div class="offcanvas-header__bottom">
+          <a href="login.html" class="btn button-primary">
+            Iniciar Sesión
+          </a>
+          <a href="registro.html" class="btn button-outline">
+            Regístrarme
+          </a>
+        </div>
+      </div>
+
+      <div class="offcanvas-header__login d-none">
+        <img src="../img/icons/avatar.jpg" alt="usuario registrado">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+          ¡Hola, Javier!
+        </h5>
+      </div>
+
+    </div>
+    <div class="offcanvas-body">
+
+      <ul class="main-menu-mobile">
+        <li class="main-menu-mobile__item">
+          <a href="contacto.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              call
+            </span>
+            Contacto
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              movie
+            </span>
+            Cine
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              mood
+            </span>
+            Entretenimiento
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              restaurant
+            </span>
+            Restaurantes
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              spa
+            </span>
+            Salud y Belleza
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              redeem
+            </span>
+            Boxes y Regalos
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              directions_bike
+            </span>
+            Deporte
+          </a>
+        </li>
+
+        <li class="main-menu-mobile__item">
+          <a href="category.html" class="main-menu-mobile__link">
+            <span class="material-icons-outlined">
+              school
+            </span>
+            Educación
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- End off canvas mobile -->
+
+    <div class="container-form-login-registro">
+      <form class="form-registro shadow">
+        <div class="form-registro__header">
+          <img src="../img/logos/beeTicket.png" class="form-registro__logo" alt="Logo Bee Ticket">
+          <p class="form-registro__msg">
+            ¡Te da la bienvenida!
+          </p>
+          <h1 class="form-registro-title heading-3">Regístro</h1>
+        </div>
+        <fieldset class="fs-registro" id="fs-registro-correo">
+          <p>
+            Ingresa el correo con el que deseas registrarte
+          </p>
+          <div class="form-group">
+            <label for="registroUserCorreo" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="registroUserCorreo">
+            <small class="text-help small-regular">Correo incorrecto</small>
+          </div>
+
+          <div class="fs-registro-btns">
+            <button type="button" class="btn button-primary button-block" id="btn-show-validar-correo">
+              Continuar
+            </button>
+          </div>
+        </fieldset>
+
+        <fieldset class="fs-registro" id="fs-registro-validar-correo">
+          <p>
+            Te hemos enviado un código de verificación al correo: <br>
+            <span>
+              javierbull@gmail.com
+            </span>
+          </p>
+          <div class="form-group">
+            <label for="registroUserVerficarCorreo" class="form-label">Código de verificación</label>
+            <input type="number" class="form-control" id="registroUserVerficarCorreo">
+            <small class="text-help small-regular">Código incorrecto</small>
+          </div>
+
+          <div class="fs-registro-btns">
+            <button type="button" class="btn button-primary button-block" id="btn-show-completar-cuenta">
+              Verificar
+            </button>
+            <button type="button" name="button" class="btn button-link">
+              Reenviar Nuevo Código
+            </button>
+          </div>
+        </fieldset>
+
+        <fieldset class="fs-registro" id="fs-registro-cuenta">
+          <p>
+            Completa tus datos para crear tu cuenta
+          </p>
+          <div class="form-group">
+            <label for="registroUserNombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="registroUserNombre">
+            <small class="text-help small-regular">Campo obligatorio</small>
+          </div>
+
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="registroUserApPaterno" class="form-label">Apellido paterno</label>
+              <input type="text" class="form-control" id="registroUserApPaterno">
+              <small class="text-help small-regular">Campo obligatorio</small>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="registroUserNombreApMaterno" class="form-label">Apellido materno</label>
+              <input type="text" class="form-control" id="registroUserNombreApMaterno">
+              <small class="text-help small-regular">Campo obligatorio</small>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="registroUserTipoDocumento" class="form-label">Documento</label>
+              <select class="form-select col-md-6" aria-label="Default select example" id="registroUserTipoDocumento">
+                <option selected>DNI</option>
+                <option >CE</option>
+              </select>
+              <small class="text-help small-regular">Campo obligatorio</small>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="registroUserNumeroDocumento" class="form-label">Número</label>
+              <input type="text" class="form-control" id="registroUserNumeroDocumento">
+              <small class="text-help small-regular">Campo obligatorio</small>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="registroUserPassword">Contraseña</label>
+            <input id="registroUserPassword" type="password" class="form-control" name="password">
+            <span toggle="#registroUserPassword" class="fa fa-regular fa-eye-slash field-icon toggle-password"></span>
+            <small class="text-help small-regular">Campo obligatorio</small>
+          </div>
+
+          <div class="form-group">
+            <label for="registroUserPasswordConfirmar">Confirmar contraseña</label>
+            <input id="registroUserPasswordConfirmar" type="password" class="form-control" name="password">
+            <span toggle="#registroUserPasswordConfirmar" class="fa fa-regular fa-eye-slash field-icon toggle-password"></span>
+            <small class="text-help small-regular">Las contraselas no coinciden</small>
+          </div>
+
+          <div class="fs-registro-btns">
+            <a type="button" href="../index.html" class="btn button-primary button-block">
+              Crear Cuenta
+            </a>
+          </div>
+        </fieldset>
+
+        <div class="registro-footer">
+          <p>
+            ¿Ya tienes cuenta?
+          </p>
+          <a href="login.html" type="button" name="button" class="btn button-link">
+            Iniciar Sesión
+          </a>
+        </div>
+      </form>
+    </div>>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container.fluid">
+      <div class="footer__top">
+        <img src="../img/logos/beeTicket.svg" alt="Bee ticket">
+      </div>
+      <div class="footer__body">
+        <ul class="footer-list">
+          <li class="footer-list__item footer-list__item--title">
+            ¿Necesitas ayuda?
+          </li>
+          <li class="footer-list__item">
+            Escribenos a <br>
+            whatsapp: 992192643 <br>
+            correo electrónico: hola@bee.com.pe
+          </li>
+          <li class="footer-list__item">
+            o llámanos al <br> (51) 01 4949335
+          </li>
+          <li class="footer-list__item">
+            De <br>
+            Lunes a viernes: 09:00 am a 6:00pm.
+          </li>
+        </ul>
+      </div>
+      <div class="footer__bottom">
+        <p>
+          © 2023 Todos los derechos reservados
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODALS -->
+  <!-- Login -->
+  <div class="modal fade" id="modalRecuperarPassword" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Olvide mi contraseña</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Ingrese el correo con el cual se registró. <br>
+            Le enviaremos un código para poder restablecer su contraseña.
+          </p>
+          <div class="form-group">
+            <label for="modalregistroUserCorreo" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="modalregistroUserCorreo">
+            <small class="text-help small-regular">Correo incorrecta</small>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn button-outline" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn button-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End login -->
+
+  <!-- END MODALS -->
+
+  <script src="../js/jquery.3.2.1.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>

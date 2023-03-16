@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="img/icons/favicon.png" type="image/x-icon" />
+  <meta name="description"
+    content="Bee ticket es la plataforma donde podrás encontrar gif cards de tus marcas preferidas, Promociones y Ofertas Exclusivas.">
+  <meta name="keywords" content="Gif cards, promociones, ofertas, regalar">
+  <title>Bee Ticket - Inicio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8cf3a19778.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mq.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar-main shadow fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-main__left">
+          <button class="btn button-ghost" id="btn-menu-mobile" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasMenuMobile" aria-controls="offcanvasExample">
+            <span class="material-icons-outlined">
+              menu
+            </span>
+          </button>
+          <a class="navbar-main__brand" href="index.html">
+            <img src="img/logos/beeTicket.png" alt="Logo bee Ticket">
+          </a>
+          <div class="btn-group btn-navbar-desktop-categorias">
+            <button type="button" class="btn button-ghost dropdown-toggle" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Categorías
+              <span class="material-icons-outlined">
+                expand_more
+              </span>
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" type="button" href="pages/category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      movie
+                    </span>
+                    Cine
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="pages/category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      mood
+                    </span>
+                    Entretenimiento
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="pages/category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      restaurant
+                    </span>
+                    Restaurantes
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="pages/category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      spa
+                    </span>
+                    Salud y Belleza
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="pages/category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      redeem
+                    </span>
+                    Boxes y Regalos
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="pages/category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      directions_bike
+                    </span>
+                    Deporte
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" type="button" href="pages/category.html">
+                  <span class="dropdown-item-content">
+                    <span class="material-icons-outlined">
+                      school
+                    </span>
+                    Educación
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <a href="pages/contacto.html" class="btn button-ghost btn-navbar-desktop-contacto">
+            Contacto
+          </a>
+        </div>
+
+        <div class="navbar-main__right">
+          <button type="button" class="btn button-ghost dropdown-toggle btn-profile-desktop" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="img/icons/avatar.jpg" class="navbar-main__user-img" alt="Imágen usuario">
+            Hola Javier
+            <span class="material-icons-outlined">
+              expand_more
+            </span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li>
+              <a class="dropdown-item" type="button" href="pages/profile.html">
+                <span class="dropdown-item-content">
+                  <span class="material-icons-outlined">
+                    person_outline
+                  </span>
+                  Mi Perfil
+                </span>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" type="button" href="pages/login.html">
+                <span class="dropdown-item-content">
+                  <span class="material-icons-outlined">
+                    logout
+                  </span>
+                  Cerrar Sesión
+                </span>
+              </a>
+            </li>
+          </ul>
+
+          <a href="pages/cart.html" class="btn button-primary">
+            <span class="material-icons-outlined">
+              shopping_cart
+            </span>
+            00
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Off canvas menu mobile -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenuMobile"
+      aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+
+        <div class="offcanvas-header__login">
+          <img src="img/icons/avatar.jpg" alt="usuario registrado">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            ¡Hola, Javier!
+          </h5>
+        </div>
+
+      </div>
+      <div class="offcanvas-body">
+
+        <ul class="main-menu-mobile">
+          <li class="main-menu-mobile__item">
+            <a href="pages/contacto.html" class="main-menu-mobile__link">
+              <span class="material-icons-outlined">
+                call
+              </span>
+              Contacto
+            </a>
+          </li>
+
+          <li class="main-menu-mobile__item">
+            <a href="pages/profile.html" class="main-menu-mobile__link">
+              <span class="material-icons-outlined">
+                account_circle
+              </span>
+              Mi perfil
+            </a>
+          </li>
+
+          <li class="main-menu-mobile__item">
+            <a href="pages/category.html" class="main-menu-mobile__link">
+              <span class="material-icons-outlined">
+                movie
+              </span>
+              Cine
+            </a>
+          </li>
+
+          <li class="main-menu-mobile__item">
+            <a href="pages/category.html" class="main-menu-mobile__link">
+              <span class="material-icons-outlined">
+                mood
+              </span>
+              Entretenimiento
+            </a>
+          </li>
+
+          <li class="main-menu-mobile__item">
+            <a href="pages/category.html" class="main-menu-mobile__link">
+              <span class="material-icons-outlined">
+                restaurant
+              </span>
+              Restaurantes
+            </a>
+          </li>
+
+          <li class="main-menu-mobile__item">
+            <a href="pages/category.html" class="main-menu-mobile__link">
+              <span class="material-icons-outlined">
+                spa
+              </span>
+              Salud y Belleza
+            </a>
+          </li>
+
+          <li class="main-menu-mobile__item">
+            <a href="pages/category.html" class="main-menu-mobile__link">
+              <span class="material-icons-outlined">
+                redeem
+              </span>
+              Boxes y Regalos
+            </a>
+          </li>
+
+          <li class="main-menu-mobile__item">
+            <a href="pages/category.html" class="main-menu-mobile__link">
+              <span class="material-icons-outlined">
+                directions_bike
+              </span>
+              Deporte
+            </a>
+          </li>
+
+          <li class="main-menu-mobile__item">
+            <a href="pages/category.html" class="main-menu-mobile__link">
+              <span class="material-icons-outlined">
+                school
+              </span>
+              Educación
+            </a>
+          </li>
+
+          <li class="main-menu-mobile__item">
+            <a href="pages/login.html" class="main-menu-mobile__link">
+              <span class="material-icons-outlined">
+                logout
+              </span>
+              Cerrar Sesión
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- End off canvas mobile -->
+
+    <!-- main carousel -->
+    <div id="carouselExampleIndicators" class="carousel carousel-desktop slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banners/Carousel-1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/banners/Carousel-2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/banners/Carousel-3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="material-icons-outlined carousel-control-icon">
+          arrow_back_ios
+        </span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="material-icons-outlined carousel-control-icon">
+          arrow_forward_ios
+        </span>
+      </button>
+    </div>
+    <!-- End main carousel -->
+
+    <!-- Mobile Carousel -->
+    <div id="carouselExampleIndicators" class="carousel carousel-mobile slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banners/carouselMobile-1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/banners/carouselMobile-2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/banners/carouselMobile-3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <!-- End Mobile Carousel -->
+
+    <!-- Section gif cards -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="heading-3">
+            Gift cards Más Vendidos
+          </h1>
+        </div>
+        <div class="section-body">
+          <div class="grid-gift-cards">
+            <a href="pages/detalleGiftCard.html" class="gift-card">
+              <img src="img/products/gift-card-cp.jpg" class="gift-card__img" alt="gift card cineplanet">
+            </a>
+
+            <a href="pages/detalleGiftCard.html" class="gift-card">
+              <img src="img/products/gift-card-rokys.jpg" class="gift-card__img" alt="gift card rokys">
+            </a>
+
+            <a href="pages/detalleGiftCard.html" class="gift-card">
+              <img src="img/products/gift-card-coney.jpg" class="gift-card__img" alt="gift card coney">
+            </a>
+            
+            <a href="pages/detalleGiftCard.html" class="gift-card">
+              <img src="img/products/gift-card-sf.jpg" class="gift-card__img" alt="gift card montalvo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End section gif cards -->
+
+    <!-- Section productos más vendidos -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="heading-3">
+            Productos Más Vendidos
+          </h2>
+        </div>
+        <div class="section-body">
+          <div class="owl-carousel owl-theme" id="owl-carousel-cards-productos">
+            <div class="content-card-product">
+              <div class="card-product">
+                <div class="card-product__header">
+                  <img src="img/products/img-card.jpg" class="card-product__img" alt="Pizza">
+                  <img src="img/logos/logo-mt.jpg" class="card-product__logo" alt="Logo Mamma Tomato">
+                </div>
+  
+                <div class="card-product__body">
+                  <h3 class="card-product__brand small-overline">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eligendi.
+                  </h3>
+                  <p class="card-product__name">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, animi.
+                  </p>
+                </div>
+                
+                <div class="card-product__footer">
+                  <p class="card-product__price">
+                    s/ 40.00
+                  </p>
+                  <a href="pages/detalleProducto.html" class="btn button-primary">
+                    Comprar
+                  </a>
+                </div> 
+              </div>
+            </div> 
+
+            <div class="content-card-product">
+              <div class="card-product">
+                <div class="card-product__header">
+                  <img src="img/products/img-card.jpg" class="card-product__img" alt="Pizza">
+                  <img src="img/logos/logo-mt.jpg" class="card-product__logo" alt="Logo Mamma Tomato">
+                </div>
+  
+                <div class="card-product__body">
+                  <h3 class="card-product__brand small-overline">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eligendi.
+                  </h3>
+                  <p class="card-product__name">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, animi.
+                  </p>
+                </div>
+                
+                <div class="card-product__footer">
+                  <p class="card-product__price">
+                    s/ 40.00
+                  </p>
+                  <a href="pages/detalleProducto.html" class="btn button-primary">
+                    Comprar
+                  </a>
+                </div> 
+              </div>
+            </div> 
+
+            <div class="content-card-product">
+              <div class="card-product">
+                <div class="card-product__header">
+                  <img src="img/products/img-card.jpg" class="card-product__img" alt="Pizza">
+                  <img src="img/logos/logo-mt.jpg" class="card-product__logo" alt="Logo Mamma Tomato">
+                </div>
+  
+                <div class="card-product__body">
+                  <h3 class="card-product__brand small-overline">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eligendi.
+                  </h3>
+                  <p class="card-product__name">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, animi.
+                  </p>
+                </div>
+                
+                <div class="card-product__footer">
+                  <p class="card-product__price">
+                    s/ 40.00
+                  </p>
+                  <a href="pages/detalleProducto.html" class="btn button-primary">
+                    Comprar
+                  </a>
+                </div> 
+              </div>
+            </div> 
+
+            <div class="content-card-product">
+              <div class="card-product">
+                <div class="card-product__header">
+                  <img src="img/products/img-card.jpg" class="card-product__img" alt="Pizza">
+                  <img src="img/logos/logo-mt.jpg" class="card-product__logo" alt="Logo Mamma Tomato">
+                </div>
+  
+                <div class="card-product__body">
+                  <h3 class="card-product__brand small-overline">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eligendi.
+                  </h3>
+                  <p class="card-product__name">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, animi.
+                  </p>
+                </div>
+                
+                <div class="card-product__footer">
+                  <p class="card-product__price">
+                    s/ 40.00
+                  </p>
+                  <a href="pages/detalleProducto.html" class="btn button-primary">
+                    Comprar
+                  </a>
+                </div> 
+              </div>
+            </div> 
+
+            <div class="content-card-product">
+              <div class="card-product">
+                <div class="card-product__header">
+                  <img src="img/products/img-card.jpg" class="card-product__img" alt="Pizza">
+                  <img src="img/logos/logo-mt.jpg" class="card-product__logo" alt="Logo Mamma Tomato">
+                </div>
+  
+                <div class="card-product__body">
+                  <h3 class="card-product__brand small-overline">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eligendi.
+                  </h3>
+                  <p class="card-product__name">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, animi.
+                  </p>
+                </div>
+                
+                <div class="card-product__footer">
+                  <p class="card-product__price">
+                    s/ 40.00
+                  </p>
+                  <a href="pages/detalleProducto.html" class="btn button-primary">
+                    Comprar
+                  </a>
+                </div> 
+              </div>
+            </div> 
+
+            <div class="content-card-product">
+              <div class="card-product">
+                <div class="card-product__header">
+                  <img src="img/products/img-card.jpg" class="card-product__img" alt="Pizza">
+                  <img src="img/logos/logo-mt.jpg" class="card-product__logo" alt="Logo Mamma Tomato">
+                </div>
+  
+                <div class="card-product__body">
+                  <h3 class="card-product__brand small-overline">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eligendi.
+                  </h3>
+                  <p class="card-product__name">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, animi.
+                  </p>
+                </div>
+                
+                <div class="card-product__footer">
+                  <p class="card-product__price">
+                    s/ 40.00
+                  </p>
+                  <a href="pages/detalleProducto.html" class="btn button-primary">
+                    Comprar
+                  </a>
+                </div> 
+              </div>
+            </div> 
+
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- End section productos más vendidos -->
+
+    <!-- Section Categorías -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="heading-3">
+            Categorías
+          </h2>
+        </div>
+        <div class="section-body">
+          <div class="grid-categories">
+            <a href="pages/category.html" class="grid-category__link">
+              <div class="card-category">
+                <img src="img/categories/category-cine.jpg" class="card-category__img" alt="categoría cine">
+                <div class="card-category__body">
+                  <h3 class="card-category__title heading-4">Cine</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="pages/category.html" class="grid-category__link">
+              <div class="card-category">
+                <img src="img/categories/category-entretenimiento.jpg" class="card-category__img" alt="categoría Entretenimiento">
+                <div class="card-category__body">
+                  <h3 class="card-category__title heading-4">Entretenimiento</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="pages/category.html" class="grid-category__link">
+              <div class="card-category">
+                <img src="img/categories/category-restaurantes.jpg" class="card-category__img" alt="categoría Restaurantes">
+                <div class="card-category__body">
+                  <h3 class="card-category__title heading-4">Restaurantes</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="pages/category.html" class="grid-category__link">
+              <div class="card-category">
+                <img src="img/categories/category-salud-belleza.jpg" class="card-category__img" alt="categoría Salud y Belleza">
+                <div class="card-category__body">
+                  <h3 class="card-category__title heading-4">Salud y Belleza</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="pages/category.html" class="grid-category__link">
+              <div class="card-category">
+                <img src="img/categories/category-boxes-regalos.jpg" class="card-category__img" alt="categoría Boxes y Regalos">
+                <div class="card-category__body">
+                  <h3 class="card-category__title heading-4">Boxes y Regalos</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="pages/category.html" class="grid-category__link">
+              <div class="card-category">
+                <img src="img/categories/category-deporte.jpg" class="card-category__img" alt="categoría deporte">
+                <div class="card-category__body">
+                  <h3 class="card-category__title heading-4">Deportes</h3>
+                </div>
+              </div>
+            </a>
+
+            <a href="pages/category.html" class="grid-category__link">
+              <div class="card-category">
+                <img src="img/categories/category-educacion.jpg" class="card-category__img" alt="categoría educación">
+                <div class="card-category__body">
+                  <h3 class="card-category__title heading-4">Educación</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End section categoprias -->
+
+    <!-- Section brands -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="heading-3">
+            Nuestras Marcas
+          </h1>
+        </div>
+        <div class="section-body">
+          <div class="grid-brands-cards">
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-cp.jpg" class="card-card__img" alt="cineplanet">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-rokys.jpg" class="card-card__img" alt="rokys">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-coney.jpg" class="card-card__img" alt="coney">
+            </a>
+            
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-montalvo.jpg" class="card-card__img" alt="montalvo">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-donofrio.jpg" class="card-card__img" alt="donofrio">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-fina.jpg" class="card-card__img" alt="la fina endorfina">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-ec.jpg" class="card-card__img" alt="entrenamiento certero">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-mamma.jpg" class="card-card__img" alt="mamma tomato">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-villa.jpg" class="card-card__img" alt="villa jazmin">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-sf.jpg" class="card-card__img" alt="san fernando">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-piscos.jpg" class="card-card__img" alt="piscos personalizados">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-optica.jpg" class="card-card__img" alt="la óptica">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-nathalie.jpg" class="card-card__img" alt="nathalie bird">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-ice.jpg" class="card-card__img" alt="ice school">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-backus.jpg" class="card-card__img" alt="backus">
+            </a>
+
+            <a href="pages/category.html" class="card-brand">
+              <img src="img/brands/brand-card-maras.jpg" class="card-card__img" alt="maras gourmet">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End section brands -->
+
+  </main>
+
+  <footer class="footer">
+    <div class="container.fluid">
+      <div class="footer__top">
+        <img src="img/logos/beeTicket.svg" alt="Bee ticket">
+      </div>
+      <div class="footer__body">
+        <ul class="footer-list">
+          <li class="footer-list__item footer-list__item--title">
+            ¿Necesitas ayuda?
+          </li>
+          <li class="footer-list__item">
+            Escribenos a <br>
+            whatsapp: 992192643 <br>
+            correo electrónico: hola@bee.com.pe
+          </li>
+          <li class="footer-list__item">
+            o llámanos al <br> (51) 01 4949335
+          </li>
+          <li class="footer-list__item">
+            De <br>
+            Lunes a viernes: 09:00 am a 6:00pm.
+          </li>
+        </ul>
+      </div>
+      <div class="footer__bottom">
+        <p>
+          © 2023 Todos los derechos reservados
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery.3.2.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
