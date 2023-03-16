@@ -180,7 +180,8 @@
 
                 <div class="detail-main">
                     <div class="detail-main__img-logo">
-                        <img src="../img/products/img-detalle-pollo.jpg" class="detail-main__img" alt="Combo familiar Roky's">
+                        <img src="../img/products/img-detalle-pollo.jpg" class="detail-main__img"
+                            alt="Combo familiar Roky's">
                         <img src="../img/logos/logo-rokys.jpg" class="detail-main__logo" alt="Logo Roky's">
                     </div>
 
@@ -219,6 +220,36 @@
                                 <input type="number" value="1" name="qtybutton" class="plus-minus-box" readonly>
                                 <button type="button" name="button" class="inc qtybutton btn">+</button>
                             </div>
+
+                            <div class="wrap-buy-for">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                        value="option1" checked>
+                                    <label class="form-check-label" for="inlineRadio1">Comprar para mí</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                        value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Comprar como regalo</label>
+                                </div>
+                            </div>
+
+                            <form class="form-buy-for">
+                                <div class="mb-3">
+                                  <label for="inputAddresseeName" class="form-label">Nombre destinatario</label>
+                                  <input type="text" class="form-control" id="inputAddresseeName">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="inputAddresseeEmail" class="form-label">Email destinatario</label>
+                                  <input type="email" class="form-control" id="inputAddresseeEmail">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="inputTextarea" class="form-label">Mensaje (Máximo 300 caracteres)</label>
+                                    <textarea class="form-control" id="inputTextarea" rows="6"></textarea>
+                                </div>
+                                <a href="cart-gift.html" type="button" class="btn button-primary">Agregar al carrito</a>
+                            </form>
+
                             <a href="cart.html" type="button" class="btn button-primary btn-block-mobile">
                                 Agregar al carrito
                             </a>
@@ -235,10 +266,12 @@
                 </h3>
                 <ul class="conditions-list">
                     <li class="condition-list__item">
-                        Luego de realizada la compra, recibirás un correo con tu vale en formato PDF. También podrás encontrarlo en la sección Mis vales
+                        Luego de realizada la compra, recibirás un correo con tu vale en formato PDF. También podrás
+                        encontrarlo en la sección Mis vales
                     </li>
                     <li class="condition-list__item">
-                        Válido para recojo en tienda (de 12:00 pm a 9:00 pm), consumo en salón (de 12:00 pm a 8:30 pm) y delivery (de 9:00 am a 9:30 pm).
+                        Válido para recojo en tienda (de 12:00 pm a 9:00 pm), consumo en salón (de 12:00 pm a 8:30 pm) y
+                        delivery (de 9:00 am a 9:30 pm).
                     </li>
                     <li class="condition-list__item">
                         Para canjes en tienda, deberás llevar tu vale impreso.
@@ -247,7 +280,8 @@
                         Delivery sujeto a cargo y cobertura del restaurante.
                     </li>
                     <li class="condition-list__item">
-                        El delivery tiene un cargo de S/4.90, el pago se realizará en efectivo o tarjeta de credito y/o debito
+                        El delivery tiene un cargo de S/4.90, el pago se realizará en efectivo o tarjeta de credito y/o
+                        debito
                     </li>
                     <li class="condition-list__item">
                         Atención por Call Center de 9:00 am a 9:30 pmLima: (01) 613-5000Otras ciudades: 749-490
@@ -382,100 +416,6 @@
         </div>
     </div>
     <!-- End off canvas menu mobile -->
-
-    <!-- Off canvas filter mobile -->
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasFilterMobile"
-        aria-labelledby="offcanvasFilterMobileLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasFilterMobileLabel">
-                Filtrar por:
-            </h5>
-        </div>
-
-        <div class="offcanvas-body">
-            <ul class="menu-filter-mobile">
-                <li class="menu-filter-mobile__item">
-                    <h4 class="offcanvas-title">
-                        Marca
-                    </h4>
-                </li>
-                <li class="menu-filter-mobile__item">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="checkFilterBrandMobile1">
-                        <label class="form-check-label" for="checkFilterBrandMobile1">
-                            Roky's
-                        </label>
-                    </div>
-                </li>
-                <li class="menu-filter-mobile__item">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="checkFilterBrandMobile2">
-                        <label class="form-check-label" for="checkFilterBrandMobile2">
-                            Mamma Tomato
-                        </label>
-                    </div>
-                </li>
-                <li class="menu-filter-mobile__item">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="checkFilterBrandMobile3">
-                        <label class="form-check-label" for="checkFilterBrandMobile3">
-                            Burguer King
-                        </label>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-        <div class="offcanvas-footer">
-            <button class="btn button-primary button-block" data-bs-dismiss="offcanvas">
-                Aplicar Filtros
-            </button>
-        </div>
-    </div>
-    <!-- End off canvas filter mobile -->
-
-    <!-- Off canvas order mobile -->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasOrderMobile"
-        aria-labelledby="offcanvasOrderMobileLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasOrderMobileLabel">
-                Ordenar por:
-            </h5>
-        </div>
-
-        <div class="offcanvas-body">
-            <ul class="menu-filter-mobile">
-                <li class="menu-filter-mobile__item">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="orderProductsMobileRadios"
-                            id="optionRadioOrderMobile1" value="option1" checked>
-                        <label class="form-check-label" for="optionRadioOrderMobile1">
-                            Recomendados
-                        </label>
-                    </div>
-                </li>
-                <li class="menu-filter-mobile__item">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="orderProductsMobileRadios"
-                            id="optionRadioOrderMobile2" value="option2">
-                        <label class="form-check-label" for="optionRadioOrderMobile2">
-                            Menor Precio
-                        </label>
-                    </div>
-                </li>
-                <li class="menu-filter-mobile__item">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="orderProductsMobileRadios"
-                            id="optionRadioOrderMobile3" value="option3">
-                        <label class="form-check-label" for="optionRadioOrderMobile3">
-                            Mayor Precio
-                        </label>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!-- End off canvas order mobile -->
 
     <!-- END OFF CANVAS -->
 

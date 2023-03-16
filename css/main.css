@@ -1369,7 +1369,12 @@ input[type=number] {
   border: none;
 }
 
-
+/* form section buy */
+.form-buy-for {
+  background-color: #C1F8CF;
+  width: 100%;
+}
+/* end form section buy */
 
 /* section conditios */
 .section-conditions {
