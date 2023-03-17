@@ -26,6 +26,15 @@ $(document).ready(function(){
     $("#fs-registro-validar-correo").hide();
     $("#fs-registro-cuenta").show();
   });
+
+  $("#optionDelivery2").click(function() {
+    $("#form-delivery-time").show();
+  });
+
+  $("#optionDelivery1").click(function() {
+    $("#form-delivery-time").hide();
+  });
+
   // END SHOW HIDE PANELS
 
   // LOAD IMG PROFILE

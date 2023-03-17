@@ -221,16 +221,16 @@
                                 <button type="button" name="button" class="inc qtybutton btn">+</button>
                             </div>
 
-                            <div class="wrap-buy-for">
+                            <div class="wrap-radio-options">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    <input class="form-check-input" type="radio" name="radioOptionsbuyFor" id="optionbuyFor1"
                                         value="option1" checked>
-                                    <label class="form-check-label" for="inlineRadio1">Comprar para mí</label>
+                                    <label class="form-check-label" for="optionbuyFor1">Comprar para mí</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    <input class="form-check-input" type="radio" name="radioOptionsbuyFor" id="optionbuyFor2"
                                         value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">Comprar como regalo</label>
+                                    <label class="form-check-label" for="optionbuyFor2">Comprar como regalo</label>
                                 </div>
                             </div>
 
@@ -247,7 +247,26 @@
                                     <label for="inputTextarea" class="form-label">Mensaje (Máximo 300 caracteres)</label>
                                     <textarea class="form-control" id="inputTextarea" rows="6"></textarea>
                                 </div>
-                                <a href="cart-gift.html" type="button" class="btn button-primary">Agregar al carrito</a>
+                            </form>
+
+                            <div class="wrap-radio-options">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="radioOptionsDeliveryTime" id="optionDelivery1"
+                                        value="option1" checked>
+                                    <label class="form-check-label" for="optionDelivery1">Inmediato</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="radioOptionsDeliveryTime" id="optionDelivery2"
+                                        value="option2">
+                                    <label class="form-check-label" for="optionDelivery2">Envío programado</label>
+                                </div>
+                            </div>
+
+                            <form class="form-delivery-time" id="form-delivery-time">
+                                <div class="mb-3">
+                                    <label for="inputDeliveryDate" class="form-label">Fecha de envío</label>
+                                    <input type="date" class="form-control" id="inputDeliveryDate">
+                                </div>
                             </form>
 
                             <a href="cart.html" type="button" class="btn button-primary btn-block-mobile">

@@ -1374,6 +1374,14 @@ input[type=number] {
   background-color: #C1F8CF;
   width: 100%;
 }
+
+#form-delivery-time {
+  display: none;
+}
+
+.wrap-radio-options {
+  margin-bottom: 1rem;
+}
 /* end form section buy */
 
 /* section conditios */
