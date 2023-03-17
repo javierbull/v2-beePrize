@@ -35,6 +35,14 @@ $(document).ready(function(){
     $("#form-delivery-time").hide();
   });
 
+  $("#optionbuyFor2").click(function() {
+    $("#wrap-buy-for").show();
+  });
+
+  $("#optionbuyFor1").click(function() {
+    $("#wrap-buy-for").hide();
+  });
+
   // END SHOW HIDE PANELS
 
   // LOAD IMG PROFILE

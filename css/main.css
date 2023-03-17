@@ -1371,11 +1371,11 @@ input[type=number] {
 
 /* form section buy */
 .form-buy-for {
-  background-color: #C1F8CF;
-  width: 100%;
+  /* background-color: #C1F8CF; */
+  width: 25rem;
 }
 
-#form-delivery-time {
+#form-delivery-time, #wrap-buy-for {
   display: none;
 }
 
